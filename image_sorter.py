@@ -174,7 +174,7 @@ class ImageSorter(QMainWindow):
                 self.image_label.setText("No more images in the directory.")
 
     def approve_image(self):
-        self.move_image("Approved")
+        self.move_image("Approved") #testing commit
 
     def edit_image(self):
         self.move_image("Need editions")
